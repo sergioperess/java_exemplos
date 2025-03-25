@@ -31,9 +31,9 @@ classDiagram
         + atualizarPagina(): void
     }
 
-    Iphone implements IReprodutorMusical
-    Iphone implements IAparelhoTelefonico
-    Iphone implements INavegadorInternet
+    Iphone --> IReprodutorMusical
+    Iphone --> IAparelhoTelefonico
+    Iphone --> INavegadorInternet
 ```
 
 
